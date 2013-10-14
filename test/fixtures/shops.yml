@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  extern_id: 1
+  name: MyString
+  addr: MyString
+  tel: MyString
+  region: MyString
+  location: MyString
+  access: MyString
+  budget: MyString
+  shop_type: MyString
+  cuisine_type: MyString
+  station: MyString
+  adjusted_addr: MyString
+  latitude: 1.5
+  longitude: 1.5
+  rating: 1.5
+
+two:
+  extern_id: 1
+  name: MyString
+  addr: MyString
+  tel: MyString
+  region: MyString
+  location: MyString
+  access: MyString
+  budget: MyString
+  shop_type: MyString
+  cuisine_type: MyString
+  station: MyString
+  adjusted_addr: MyString
+  latitude: 1.5
+  longitude: 1.5
+  rating: 1.5
