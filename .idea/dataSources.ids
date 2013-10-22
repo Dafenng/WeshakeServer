@@ -69,18 +69,17 @@
       <primary-key columns="id"/>
     </table>
   </data-source>
-  <data-source source="LOCAL" name="Rails WeshakeServer: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="bbf475d3-5f20-49c5-ade4-0805042f5b8d">
-    <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-    <jdbc-url>jdbc:mysql://&lt;%= ENV[&apos;RDS_HOSTNAME&apos;] %&gt;:&lt;%= ENV[&apos;RDS_PORT&apos;] %&gt;/&lt;%= ENV[&apos;RDS_DB_NAME&apos;] %&gt;</jdbc-url>
-    <user-name>&lt;%= ENV[&apos;RDS_USERNAME&apos;] %&gt;</user-name>
-    <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfeedff9dff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+  <data-source source="LOCAL" name="Rails WeshakeServer: production" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="aa0e65e9-7fac-4f42-a858-8a6e16c797e8">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
     <libraries>
       <library>
-        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/xerial-sqlite-license.txt</url>
       </library>
       <library>
-        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
+        <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
       </library>
     </libraries>
+    <schema name="" catalog=""/>
   </data-source>
 </component>
