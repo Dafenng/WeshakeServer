@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +12,7 @@
     <file path="/user.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381735632662" ignored="false" />
     <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381738655199" ignored="false" />
     <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381739293045" ignored="false" />
-    <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382427432228" ignored="false" />
+    <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382448465512" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="60" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+            <state line="8" column="9" selection-start="189" selection-end="189" vertical-scroll-proportion="0.1632653">
               <folding />
             </state>
           </provider>
@@ -96,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="560" selection-end="560" vertical-scroll-proportion="0.46938777">
+            <state line="23" column="28" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,8 +131,8 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -919,6 +918,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="28" selection-start="560" selection-end="560" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="2" selection-start="414" selection-end="414" vertical-scroll-proportion="0.0">
@@ -928,14 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="60" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="560" selection-end="560" vertical-scroll-proportion="0.46938777">
+        <state line="8" column="9" selection-start="189" selection-end="189" vertical-scroll-proportion="0.1632653">
           <folding />
         </state>
       </provider>
