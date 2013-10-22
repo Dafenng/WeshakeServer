@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3748429866">
+  <component name="DataSourceManagerImpl" format="xml" hash="3303490893">
     <data-source source="LOCAL" name="Rails WeshakeServer: development" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="a6742781-6375-4ceb-90f1-7502ee66fb68">
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/development.sqlite3</jdbc-url>
@@ -13,15 +13,17 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails WeshakeServer: production" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="eca0bbf9-e4f8-4cc1-a380-5dc5684d9e29">
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/production.sqlite3</jdbc-url>
+    <data-source source="LOCAL" name="Rails WeshakeServer: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="f4d51aeb-d3c2-4cdb-a26b-4d18c3cb18d9">
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://&lt;%= ENV['RDS_HOSTNAME'] %&gt;:&lt;%= ENV['RDS_PORT'] %&gt;/&lt;%= ENV['RDS_DB_NAME'] %&gt;</jdbc-url>
+      <user-name>&lt;%= ENV['RDS_USERNAME'] %&gt;</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfeedff9dff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries>
         <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/xerial-sqlite-license.txt</url>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>
         </library>
         <library>
-          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/sqlite-jdbc-3.7.2.jar</url>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-java-5.1.26-bin.jar</url>
         </library>
       </libraries>
     </data-source>
