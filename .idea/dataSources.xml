@@ -15,9 +15,9 @@
     </data-source>
     <data-source source="LOCAL" name="Rails WeshakeServer: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="f4d51aeb-d3c2-4cdb-a26b-4d18c3cb18d9">
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://&lt;%= ENV['RDS_HOSTNAME'] %&gt;:&lt;%= ENV['RDS_PORT'] %&gt;/&lt;%= ENV['RDS_DB_NAME'] %&gt;</jdbc-url>
-      <user-name>&lt;%= ENV['RDS_USERNAME'] %&gt;</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddff8dfeedff9dff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <jdbc-url>jdbc:mysql://aa16zo1lx0mlesk.ckrzyxpqq4nf.ap-northeast-1.rds.amazonaws.com:3306/ebdb</jdbc-url>
+      <user-name>ebroot</user-name>
+      <user-password>dfdddfcfdfd9dfc2dfcbdfc1dfcfdfc5dfd8dfcedfc3dfcfdf9b</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/mysql-connector-license.txt</url>

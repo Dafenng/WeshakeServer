@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
@@ -15,6 +14,7 @@
     <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381738655199" ignored="false" />
     <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381739293045" ignored="false" />
     <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382448465512" ignored="false" />
+    <file path="/database.yml" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382508838168" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,16 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="54" selection-start="598" selection-end="598" vertical-scroll-proportion="0.48979592">
+            <state line="28" column="12" selection-start="705" selection-end="705" vertical-scroll-proportion="0.5898876">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_key.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/api_key.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="65" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -882,11 +891,6 @@
         <state line="18" column="15" selection-start="488" selection-end="488" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/api_key.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="58" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
@@ -934,9 +938,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/api_key.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="65" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="54" selection-start="598" selection-end="598" vertical-scroll-proportion="0.48979592">
+        <state line="28" column="12" selection-start="705" selection-end="705" vertical-scroll-proportion="0.5898876">
           <folding />
         </state>
       </provider>
