@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 1.2'
 # Upload file. Read more: https://github.com/carrierwaveuploader/carrierwave
 gem 'carrierwave'
 
+# Model json serializer. Read more: https://github.com/rails-api/active_model_serializers
+gem 'active_model_serializers'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false

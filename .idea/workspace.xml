@@ -3,22 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382425343617" ignored="false" />
-    <file path="/users_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382522492534" ignored="false" />
+    <file path="/users_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382529977046" ignored="false" />
     <file path="/routes.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381734968160" ignored="false" />
     <file path="/user.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381735632662" ignored="false" />
-    <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381738655199" ignored="false" />
-    <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381739293045" ignored="false" />
-    <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382448465512" ignored="false" />
+    <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382533704541" ignored="false" />
+    <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382529451403" ignored="false" />
+    <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382528588890" ignored="false" />
     <file path="/database.yml" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382508838168" ignored="false" />
     <file path="/20131023071052_add_type_and_type_id_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382512382415" ignored="false" />
     <file path="/20131023083313_change_type_id_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382517292491" ignored="false" />
     <file path="/20131023095919_change_type_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382522448138" ignored="false" />
+    <file path="/user_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382532269007" ignored="false" />
+    <file path="/post_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382533052818" ignored="false" />
+    <file path="/shop_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382533251164" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,52 +46,61 @@
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="12" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="36" column="29" selection-start="1030" selection-end="1054" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="shop_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/shop_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="58" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
+            <state line="3" column="58" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="31" selection-start="13" selection-end="31" vertical-scroll-proportion="0.0">
+            <state line="15" column="54" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="54" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.5439189">
+            <state line="32" column="28" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="user_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/user_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="52" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+            <state line="7" column="5" selection-start="126" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rakefile">
+      <file leaf-file-name="post_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="64" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
+            <state line="5" column="53" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11516315">
               <folding />
             </state>
           </provider>
@@ -110,20 +124,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/app/models/post.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/models/api_key.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/db/migrate/20131023071052_add_type_and_type_id_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131023083313_change_type_id_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131023095919_change_type_to_users.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/serializers/user_serializer.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/shop_serializer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
       </list>
     </option>
   </component>
@@ -254,7 +270,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeshakeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeshakeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeshakeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeshakeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeshakeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeshakeServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -612,14 +682,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="24" width="1420" height="860" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.42463958" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5753604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2532751" sideWeight="0.7195282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28047183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -696,106 +766,13 @@
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb</url>
           <line>10</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131014072248_create_api_keys.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131014064801_create_shops.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131023071052_add_type_and_type_id_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="62" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="67" selection-start="1461" selection-end="1461" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382522459000" expanded="true" signature="-1:-1" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="52" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_controller/metal/implicit_render.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="101" selection-end="101" vertical-scroll-proportion="0.2027027">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/api_key.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="65" selection-start="237" selection-end="237" vertical-scroll-proportion="0.5574324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="400" selection-end="400" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="13" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1023" selection-end="1023" vertical-scroll-proportion="0.44256756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20131023083313_change_type_id_to_users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="43" selection-start="69" selection-end="108" vertical-scroll-proportion="0.10989011">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131023095919_change_type_to_users.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="127" selection-start="117" selection-end="117" vertical-scroll-proportion="0.2533784">
@@ -810,9 +787,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="13" selection-end="31" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="34" selection-start="186" selection-end="186" vertical-scroll-proportion="0.2685422">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="1030" selection-end="1054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="47" selection-start="1275" selection-end="1275" vertical-scroll-proportion="-7.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="501" selection-end="501" vertical-scroll-proportion="0.40816328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/user_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="5" selection-start="126" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/shop_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="58" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="54" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="52" selection-start="761" selection-end="761" vertical-scroll-proportion="0.4225352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="54" selection-start="1414" selection-end="1414" vertical-scroll-proportion="0.5439189">
+        <state line="32" column="28" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="132" selection-end="132" vertical-scroll-proportion="0.11516315">
           <folding />
         </state>
       </provider>

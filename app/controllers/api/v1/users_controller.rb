@@ -14,7 +14,8 @@ module Api
       # GET /users/1
       # GET /users/1.json
       def show
-        respond_with User.find(params[:id])
+        @user = User.find(params[:id])
+        render json: @user
       end
 
       # POST /users
@@ -23,13 +24,13 @@ module Api
         # 根据类型和相应类型下用户id判别
         @exist_user = User.find_by(user_type: user_params[:user_type], type_id: user_params[:type_id])
         unless @exist_user.nil?
-          render json: @exist_user.to_json, status: :created
+          render json: @exist_user, status: :created
           return
         end
 
         @user = User.new(user_params)
         if @user.save
-          render json: @user.to_json, status: :created
+          render json: @user, status: :created
         else
           render json: @user.errors, status: :unprocessable_entity
         end

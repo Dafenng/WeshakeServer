@@ -12,11 +12,12 @@ module Api
 
         @shops = Shop.where("latitude < ? AND latitude > ? AND longitude < ? AND longitude > ?",
                             (latitude + radius/111), (latitude - radius/111), (longitude + radius/111), (longitude - radius/111)).limit(100)
-        render json: @shops.to_json
+        render json: @shops
       end
 
       def show
-        respond_with Shop.find(params[:id])
+        @shop = Shop.find(params[:id])
+        render json: @shop
       end
 
       def create

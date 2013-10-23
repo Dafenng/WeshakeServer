@@ -8,19 +8,20 @@ module Api
       # GET /posts
       # GET /posts.json
       def index
-        @user = User.find(params[:post_id])
+        @user = User.find(params[:user_id])
         if @user.auth_token == params[:auth_token]
           @posts = @user.posts
-          render json: @posts.to_json
+          render json: @posts
         else
-          render json: []
+          render json: 'Permission Denied'
         end
       end
 
       # GET /posts/1
       # GET /posts/1.json
       def show
-        respond_with Post.find(params[:id])
+        @post = Post.find(params[:id])
+        render json: @post
       end
 
       # POST /posts
@@ -28,9 +29,9 @@ module Api
       def create
         @post = Post.new(post_params)
         if @post.save
-          render json: @post.to_json, status: :created
+          render json: @post, status: :created
         else
-          render json: @post.errors, status: :unprocessable_entity
+          render json: @post, status: :unprocessable_entity
         end
       end
 
