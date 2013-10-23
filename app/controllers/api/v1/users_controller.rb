@@ -20,12 +20,20 @@ module Api
       # POST /users
       # POST /users.json
       def create
+        # 根据类型和相应类型下用户id判别
+        @exist_user = User.find_by(user_type: user_params[:user_type], type_id: user_params[:type_id])
+        unless @exist_user.nil?
+          render json: @exist_user.to_json, status: :created
+          return
+        end
+
         @user = User.new(user_params)
         if @user.save
           render json: @user.to_json, status: :created
         else
           render json: @user.errors, status: :unprocessable_entity
         end
+
       end
 
       # PATCH/PUT /users/1
@@ -49,7 +57,7 @@ module Api
       end
 
       def user_params
-        params.require(:user).permit(:username, :avatar)
+        params.require(:user).permit(:username, :avatar, :user_type, :type_id)
       end
 
     end
