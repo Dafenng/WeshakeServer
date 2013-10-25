@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131024115147) do
+ActiveRecord::Schema.define(version: 20131025020507) do
 
   create_table "api_keys", force: true do |t|
     t.string   "access_token"
@@ -23,6 +23,14 @@ ActiveRecord::Schema.define(version: 20131024115147) do
     t.text     "message"
     t.string   "photo"
     t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "shop_photos", force: true do |t|
+    t.string   "num_id"
+    t.string   "photo_url"
+    t.integer  "shop_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

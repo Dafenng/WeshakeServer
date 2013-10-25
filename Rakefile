@@ -11,17 +11,27 @@ require 'csv'
 namespace :import do
   task :shops do
     CSV.foreach('./shops.csv', :headers => true) do |row|
-      Shop.create!(row.to_hash)
+      shop = Shop.new(row.to_hash)
+      shop.rating = 0
+      shop.save
     end
   end
 
-  task :rating do
-    i = 1
-    while i < 7975 do
-      shop = Shop.find(i)
-      shop.rating=0
-      shop.save
-      i = i + 1
+  task :shop_photo do
+    Dir.chdir('./public/shop_photo')
+    Dir.glob('000*').each do | dir |
+      Dir.chdir('./'+dir)
+      shop = Shop.find_by(extern_id: dir.to_i)
+      unless shop.nil?
+        Dir.glob('*.jpg').each do | jpg |
+          shop_photo = ShopPhoto.new
+          shop_photo.photo_url = '/shop_photo/'+ dir + '/' + jpg
+          shop_photo.shop_id = shop.id
+          shop_photo.num_id = jpg[/[\d_]+/]
+          shop_photo.save
+        end
+      end
+      Dir.chdir('../')
     end
   end
 
