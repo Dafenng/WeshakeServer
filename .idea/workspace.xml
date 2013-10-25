@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/welcome/index.html.erb" afterPath="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
     </list>
     <ignored path="WeshakeServer.iws" />
@@ -11,7 +10,7 @@
     <file path="/users_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382584318977" ignored="false" />
     <file path="/routes.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381734968160" ignored="false" />
     <file path="/user.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381735632662" ignored="false" />
-    <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382694232806" ignored="false" />
+    <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382700190387" ignored="false" />
     <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382617099690" ignored="false" />
     <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382528588890" ignored="false" />
     <file path="/database.yml" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382508838168" ignored="false" />
@@ -100,15 +99,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="shop_serializer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/serializers/shop_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="64" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+            <state line="21" column="53" selection-start="660" selection-end="660" vertical-scroll-proportion="0.6345292">
               <folding />
             </state>
           </provider>
@@ -168,8 +158,8 @@
         <option value="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" />
         <option value="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
         <option value="$PROJECT_DIR$/app/serializers/shop_serializer.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
       </list>
     </option>
   </component>
@@ -734,7 +724,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -801,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="65" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="77" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
@@ -829,9 +812,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="65" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -843,9 +833,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/welcome/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
+        <state line="21" column="53" selection-start="660" selection-end="660" vertical-scroll-proportion="0.6345292">
           <folding />
         </state>
       </provider>
