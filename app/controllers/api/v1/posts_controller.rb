@@ -11,6 +11,9 @@ module Api
         @user = User.find(params[:user_id])
         if @user.auth_token == params[:auth_token]
           @posts = @user.posts
+          start = params[:start]
+          count = params[:count]
+          @posts = [start, count]
           render json: @posts, meta: { status: :ok, count: @posts.count }, meta_key: 'result'
         else
           render json: 'Permission Denied'
