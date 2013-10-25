@@ -24,4 +24,22 @@ namespace :import do
       i = i + 1
     end
   end
+
+  task :cuisine do
+    all_cui = []
+    Shop.all.each do |shop|
+      unless all_cui.include?(shop.cuisine_type)
+        all_cui << shop.cuisine_type
+      end
+    end
+
+    puts all_cui
+  end
+
+  task :cost do
+    Shop.all.each do |shop|
+      shop.cost = shop.budget[/\d+/]
+      shop.save
+    end
+  end
 end

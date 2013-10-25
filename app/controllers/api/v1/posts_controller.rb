@@ -11,7 +11,7 @@ module Api
         @user = User.find(params[:user_id])
         if @user.auth_token == params[:auth_token]
           @posts = @user.posts
-          render json: @posts
+          render json: @posts, meta: { status: :ok, count: @posts.count }, meta_key: 'result'
         else
           render json: 'Permission Denied'
         end
@@ -21,17 +21,18 @@ module Api
       # GET /posts/1.json
       def show
         @post = Post.find(params[:id])
-        render json: @post
+        render json: @post, meta: { status: :ok }, meta_key: 'result'
       end
 
       # POST /posts
       # POST /posts.json
       def create
         @post = Post.new(post_params)
+        @post.user_id = params[:user_id]
         if @post.save
-          render json: @post, status: :created
+          render json: @post, meta: { status: :created }, meta_key: 'result', status: :created
         else
-          render json: @post, status: :unprocessable_entity
+          render json: @post.errors, status: :unprocessable_entity
         end
       end
 
