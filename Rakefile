@@ -52,4 +52,14 @@ namespace :import do
       shop.save
     end
   end
+
+  task :photo_count do
+    count = 0
+    Shop.all.each do |shop|
+      if shop.shop_photos.count == 0
+        count = count + 1
+      end
+    end
+    puts count
+  end
 end

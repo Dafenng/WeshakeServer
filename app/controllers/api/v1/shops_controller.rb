@@ -13,6 +13,8 @@ module Api
         process = params[:process]
         if process.eql?('suggest')
           suggest(latitude, longitude, radius)
+        elsif process.eql?('around')
+          around(latitude, longitude)
         elsif process.eql?('search')
           search_type = params[:search_type]
           start = params[:start].to_i
@@ -27,8 +29,6 @@ module Api
             to = params[:to].to_i
             search_budget(latitude, longitude, from, to, start, count)
           end
-
-
         end
       end
 
@@ -56,6 +56,11 @@ module Api
                             AND longitude < #{longitude + radius/111} AND longitude > #{longitude - radius/111}").limit(100)
         @shop = @shops.sample
         render json: @shop, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
+      end
+
+      def around(latitude, longitude)
+        @shops = Shop.near([latitude, longitude], 5).limit(10)
+        render json: @shops, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
       end
 
       def search_location(latitude, longitude, radius, start, count)
@@ -86,6 +91,7 @@ module Api
           ApiKey.exists?(access_token: token)
         end
       end
+
     end
   end
 end

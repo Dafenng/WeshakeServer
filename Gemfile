@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -35,6 +35,9 @@ gem 'carrierwave'
 
 # Model json serializer. Read more: https://github.com/rails-api/active_model_serializers
 gem 'active_model_serializers'
+
+# GEO Coder. Read more: https://github.com/alexreisner/geocoder
+gem 'geocoder'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.

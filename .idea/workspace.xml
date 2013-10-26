@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/shop.rb" afterPath="$PROJECT_DIR$/app/models/shop.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382425343617" ignored="false" />
+    <file path="/Dummy.txt" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382709130469" ignored="false" />
     <file path="/users_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382584318977" ignored="false" />
     <file path="/routes.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381734968160" ignored="false" />
     <file path="/user.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1381735632662" ignored="false" />
     <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382700190387" ignored="false" />
-    <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382617099690" ignored="false" />
-    <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382528588890" ignored="false" />
+    <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382790686148" ignored="false" />
+    <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382785687012" ignored="false" />
     <file path="/database.yml" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382508838168" ignored="false" />
     <file path="/20131023071052_add_type_and_type_id_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382512382415" ignored="false" />
     <file path="/20131023083313_change_type_id_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382517292491" ignored="false" />
@@ -20,9 +25,9 @@
     <file path="/user_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382532269007" ignored="false" />
     <file path="/post_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382674160432" ignored="false" />
     <file path="/shop_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382681354931" ignored="false" />
-    <file path="/Rakefile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382680179386" ignored="false" />
+    <file path="/Rakefile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382775568233" ignored="false" />
     <file path="/20131024115147_add_cast_to_shops.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382615554012" ignored="false" />
-    <file path="/shop.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382668650346" ignored="false" />
+    <file path="/shop.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382787722644" ignored="false" />
     <file path="/shop_photo.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382668672256" ignored="false" />
     <file path="/shop_photo_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382681124644" ignored="false" />
     <file path="/index.html.erb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382699006947" ignored="false" />
@@ -45,10 +50,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="post.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="75" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+            <state line="16" column="80" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/shop.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="37" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shops_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="shops_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="65" selection-start="326" selection-end="326" vertical-scroll-proportion="-6.0">
+            <state line="61" column="51" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.4675615">
               <folding />
             </state>
           </provider>
@@ -111,16 +125,16 @@
       <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="57" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
+            <state line="40" column="62" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="53" selection-start="660" selection-end="660" vertical-scroll-proportion="0.6345292">
+            <state line="11" column="61" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,20 +160,20 @@
       <list>
         <option value="$PROJECT_DIR$/db/migrate/20131023083313_change_type_id_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131023095919_change_type_to_users.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131024115147_add_cast_to_shops.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/app/models/shop.rb" />
         <option value="$PROJECT_DIR$/app/models/shop_photo.rb" />
         <option value="$PROJECT_DIR$/app/serializers/user_serializer.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" />
         <option value="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
         <option value="$PROJECT_DIR$/app/serializers/shop_serializer.rb" />
         <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/models/shop.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
       </list>
     </option>
   </component>
@@ -202,6 +216,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -354,19 +369,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: WeshakeServer">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -646,12 +660,13 @@
     <frame x="10" y="24" width="1420" height="860" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896462" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2525473" sideWeight="0.6513761" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34862384" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2561863" sideWeight="0.6526868" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34731323" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -724,20 +739,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="25" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/db/migrate/20131024115147_add_cast_to_shops.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="38" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="126" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -752,13 +760,6 @@
     <entry file="file://$PROJECT_DIR$/app/models/shop_photo.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="18" selection-start="55" selection-end="55" vertical-scroll-proportion="0.033632286">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/shop.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="54" selection-end="54" vertical-scroll-proportion="0.033632286">
           <folding />
         </state>
       </provider>
@@ -784,13 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="907" selection-end="907" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="77" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
@@ -801,13 +795,6 @@
     <entry file="file://$PROJECT_DIR$/app/serializers/shop_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="23" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="63" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -826,16 +813,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
+    <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="65" selection-start="326" selection-end="326" vertical-scroll-proportion="-6.0">
+        <state line="40" column="62" selection-start="1106" selection-end="1106" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="53" selection-start="660" selection-end="660" vertical-scroll-proportion="0.6345292">
+        <state line="11" column="61" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="63" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="80" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/shop.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="37" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="51" selection-start="2035" selection-end="2035" vertical-scroll-proportion="0.4675615">
           <folding />
         </state>
       </provider>
