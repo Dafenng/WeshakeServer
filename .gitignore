@@ -15,9 +15,5 @@
 /log/*.log
 /tmp
 
-# Ignore uploads and shopphoto
-/public/uploads
-/public/shop_photo
-
 # AWS eb
 .elasticbeanstalk/
