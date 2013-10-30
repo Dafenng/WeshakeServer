@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeshakeServer.iws" />
@@ -26,6 +27,7 @@
     <file path="/shop_photo.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382668672256" ignored="false" />
     <file path="/shop_photo_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382681124644" ignored="false" />
     <file path="/index.html.erb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382699006947" ignored="false" />
+    <file path="/.gitignore" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383118075239" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,10 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="avatar_uploader.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="avatar_uploader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="60" selection-start="933" selection-end="933" vertical-scroll-proportion="0.064449064">
+            <state line="27" column="60" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.5301455">
               <folding />
             </state>
           </provider>
@@ -144,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20131023083313_change_type_id_to_users.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131023095919_change_type_to_users.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131024115147_add_cast_to_shops.rb" />
@@ -160,6 +170,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/models/shop.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -747,11 +758,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="70" selection-start="416" selection-end="457" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/post.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="75" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0" />
@@ -848,7 +854,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="60" selection-start="933" selection-end="933" vertical-scroll-proportion="0.064449064">
+        <state line="27" column="60" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="472" selection-end="472" vertical-scroll-proportion="0.5301455">
           <folding />
         </state>
       </provider>
