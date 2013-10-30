@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="" />
+    <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383113727096" ignored="false" />
@@ -24,7 +27,7 @@
     <file path="/shop_photo.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382668672256" ignored="false" />
     <file path="/shop_photo_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382681124644" ignored="false" />
     <file path="/index.html.erb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382699006947" ignored="false" />
-    <file path="/.gitignore" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383120645041" ignored="false" />
+    <file path="/.gitignore" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383128926203" ignored="false" />
     <file path="/avatar_uploader.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383121117658" ignored="false" />
     <file path="/post_photo_uploader.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383121134188" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,7 +106,7 @@
       <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="483" selection-end="483" vertical-scroll-proportion="0.56133056">
+            <state line="19" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.5925156">
               <folding />
             </state>
           </provider>
@@ -867,7 +870,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="31" selection-start="483" selection-end="483" vertical-scroll-proportion="0.56133056">
+        <state line="19" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.5925156">
           <folding />
         </state>
       </provider>

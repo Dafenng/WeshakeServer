@@ -15,6 +15,9 @@
 /log/*.log
 /tmp
 
+# Ignore resource
+/public/resource/*
+
 # AWS eb
 .elasticbeanstalk/
 
