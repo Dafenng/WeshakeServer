@@ -18,14 +18,14 @@ namespace :import do
   end
 
   task :shop_photo do
-    Dir.chdir('./public/shop_photo')
+    Dir.chdir('./public/resource/shop_photo')
     Dir.glob('000*').each do | dir |
       Dir.chdir('./'+dir)
       shop = Shop.find_by(extern_id: dir.to_i)
       unless shop.nil?
         Dir.glob('*.jpg').each do | jpg |
           shop_photo = ShopPhoto.new
-          shop_photo.photo_url = '/shop_photo/'+ dir + '/' + jpg
+          shop_photo.photo_url = '/resource/shop_photo/'+ dir + '/' + jpg
           shop_photo.shop_id = shop.id
           shop_photo.num_id = jpg[/[\d_]+/]
           shop_photo.save

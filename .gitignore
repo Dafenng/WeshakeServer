@@ -16,7 +16,7 @@
 /tmp
 
 # Ignore resource
-/public/resource/test*
+/public/resource/
 
 # AWS eb
 .elasticbeanstalk/
