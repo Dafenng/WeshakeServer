@@ -91,6 +91,7 @@ module Api
           ApiKey.exists?(access_token: token)
         end
       end
+
     end
   end
 end
