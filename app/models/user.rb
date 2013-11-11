@@ -2,6 +2,9 @@ class User < ActiveRecord::Base
   mount_uploader :avatar, AvatarUploader
   has_many :posts, dependent: :destroy
 
+  has_many :favors
+  has_many :shops, :through => :favors
+
   before_create :generate_auth_token
 
   private

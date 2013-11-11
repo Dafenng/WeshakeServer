@@ -3,6 +3,7 @@ WeshakeServer::Application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
     namespace :v1 do
       resources :shops
+      resources :favors
 
       resources :users do
         resources :posts

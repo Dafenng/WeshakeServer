@@ -1,5 +1,5 @@
 class ShopPhotoSerializer < ActiveModel::Serializer
-  attributes :id, :num_id, :photo_url, :shop_id
+  attributes :id, :photo_type, :size_type, :photo_url, :shop_id
 
   def attributes
     shop_photo = super
