@@ -16,7 +16,7 @@ module Api
         if process.eql?('suggest')
           suggest(latitude, longitude, radius)
         elsif process.eql?('around')
-          around(latitude, longitude)
+          around(latitude, longitude, start, count)
         elsif process.eql?('search')
           region = params[:region]
           area = params[:area]
@@ -53,14 +53,14 @@ module Api
       private
 
       def suggest(latitude, longitude, radius)
-        @shops = Shop.where("latitude < #{latitude + radius/111} AND latitude > #{latitude - radius/111}
-                            AND longitude < #{longitude + radius/111} AND longitude > #{longitude - radius/111}").limit(100)
+        @shops = Shop.near([latitude, longitude], radius).limit(100)
         @shop = @shops.sample
         render json: @shop, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
       end
 
-      def around(latitude, longitude)
-        @shops = Shop.near([latitude, longitude], 5).limit(10)
+      def around(latitude, longitude, start, count)
+        @shops = Shop.near([latitude, longitude], 5).limit(100)
+        @shops = @shops[start, count]
         render json: @shops, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
       end
 
@@ -95,29 +95,6 @@ module Api
 
         #@shops = Shop.where(extern_id: '01096232')
         render json: @shops, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
-      end
-      
-      def search_location(region, area, district, start, count)
-        @shops = Shop.where("latitude < #{latitude + radius/111} AND latitude > #{latitude - radius/111}
-                            AND longitude < #{longitude + radius/111} AND longitude > #{longitude - radius/111}").limit(100)
-        @shops = @shops[start, count]
-        render json: @shops, meta: { status: :ok, count: @shops.count }, meta_key: 'result'
-      end
-
-      def search_cuisine(latitude, longitude, cuisine, start, count)
-        @shops = Shop.where("latitude < #{latitude + 5/111} AND latitude > #{latitude - 5/111}
-                            AND longitude < #{longitude + 5/111} AND longitude > #{longitude - 5/111} AND
-                            cuisine = #{cuisine}").limit(100)
-        @shops = @shops[start, count]
-        render json: @shops, meta: { status: :ok, count: @shops.count }, meta_key: 'result'
-      end
-
-      def search_budget(latitude, longitude, from, to, start, count)
-        @shops = Shop.where("latitude < #{latitude + 5/111} AND latitude > #{latitude - 5/111}
-                            AND longitude < #{longitude + 5/111} AND longitude > #{longitude - 5/111} AND
-                            cost > #{from} AND cost < #{to}").limit(100)
-        @shops = @shops[start, count]
-        render json: @shops, meta: { status: :ok, count: @shops.count }, meta_key: 'result'
       end
 
       def favor(user_id, start, count)
