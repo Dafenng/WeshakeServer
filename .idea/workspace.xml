@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/post_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +21,7 @@
     <file path="/user_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382532269007" ignored="false" />
     <file path="/post_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384158508280" ignored="false" />
     <file path="/shop_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383909910605" ignored="false" />
-    <file path="/Rakefile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384174574365" ignored="false" />
+    <file path="/Rakefile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384308976164" ignored="false" />
     <file path="/20131024115147_add_cast_to_shops.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382615554012" ignored="false" />
     <file path="/shop.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384092405111" ignored="false" />
     <file path="/shop_photo.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382668672256" ignored="false" />
@@ -105,7 +102,7 @@
       <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="61" selection-start="749" selection-end="749" vertical-scroll-proportion="0.44930875">
+            <state line="17" column="10" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5875576">
               <folding />
             </state>
           </provider>
@@ -169,9 +166,9 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131111103416_add_desc_to_shop_photo.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" />
         <option value="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
       </list>
     </option>
   </component>
@@ -923,13 +920,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="66" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
@@ -958,9 +948,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="66" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="749" selection-end="749" vertical-scroll-proportion="0.44930875">
+        <state line="17" column="10" selection-start="737" selection-end="737" vertical-scroll-proportion="0.5875576">
           <folding />
         </state>
       </provider>
