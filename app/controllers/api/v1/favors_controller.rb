@@ -10,7 +10,7 @@ module Api
       def index
         @exist_favor = Favor.find_by(user_id: favor_params[:user_id], shop_id: favor_params[:shop_id])
         if @exist_favor.nil?
-          render json: @exist_favor, meta: { status: :nonexistent }, meta_key: 'result'
+          render json: [], meta: { status: :nonexistent }, meta_key: 'result'
         else
           render json: @exist_favor, meta: { status: :existent }, meta_key: 'result'
         end

@@ -4,6 +4,8 @@ class PostSerializer < ActiveModel::Serializer
   def attributes
     post = super
     post[:photo_url] = root_url.sub(/\/$/, '') + post[:photo_url]
+    post[:created_at] = post[:created_at].localtime
     post
   end
+
 end

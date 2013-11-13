@@ -9,6 +9,18 @@ require './config/environment'
 require 'csv'
 
 namespace :import do
+  task :photo_desc do
+    CSV.foreach('./photo_desc.csv', :headers => true) do |row|
+      aPhoto_url =  "/resource/shop_photo_new/#{row.to_hash['shopid']}/#{row.to_hash['photo_type']}/#{row.to_hash['shopid']}_#{row.to_hash['seq']}_320x320_rect.jpg"
+      photo = ShopPhoto.find_by(photo_url: aPhoto_url)
+      unless photo.nil?
+        puts row.to_hash['description']
+        photo.description = row.to_hash['description']
+        photo.save
+      end
+    end
+  end
+
   task :shops do
     CSV.foreach('./shops.csv', :headers => true) do |row|
       shop = Shop.new(row.to_hash)

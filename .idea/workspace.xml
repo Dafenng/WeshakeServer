@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/post_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/shop.rb" afterPath="$PROJECT_DIR$/app/models/shop.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/serializers/shop_serializer.rb" afterPath="$PROJECT_DIR$/app/serializers/shop_serializer.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +22,22 @@
     <file path="/20131023083313_change_type_id_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382517292491" ignored="false" />
     <file path="/20131023095919_change_type_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382522448138" ignored="false" />
     <file path="/user_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382532269007" ignored="false" />
-    <file path="/post_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382674160432" ignored="false" />
+    <file path="/post_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384158508280" ignored="false" />
     <file path="/shop_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383909910605" ignored="false" />
-    <file path="/Rakefile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382775568233" ignored="false" />
+    <file path="/Rakefile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384174574365" ignored="false" />
     <file path="/20131024115147_add_cast_to_shops.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382615554012" ignored="false" />
     <file path="/shop.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384092405111" ignored="false" />
     <file path="/shop_photo.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382668672256" ignored="false" />
-    <file path="/shop_photo_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382681124644" ignored="false" />
+    <file path="/shop_photo_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384272627850" ignored="false" />
     <file path="/index.html.erb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382699006947" ignored="false" />
     <file path="/.gitignore" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383128926203" ignored="false" />
     <file path="/avatar_uploader.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383121117658" ignored="false" />
     <file path="/post_photo_uploader.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1383121134188" ignored="false" />
     <file path="/20131110134609_add_user_id_to_shop.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384091271115" ignored="false" />
     <file path="/favor.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384092468264" ignored="false" />
-    <file path="/favors_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384094481065" ignored="false" />
+    <file path="/favors_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384271016316" ignored="false" />
     <file path="/favor_serializer.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384093983061" ignored="false" />
+    <file path="/20131111103416_add_desc_to_shop_photo.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384171997584" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       <file leaf-file-name="favors_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+            <state line="12" column="25" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,28 +93,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="55" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="45" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shops_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shops_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="63" selection-start="4828" selection-end="4828" vertical-scroll-proportion="3.422819">
+            <state line="118" column="66" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rakefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="61" selection-start="749" selection-end="749" vertical-scroll-proportion="0.44930875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,16 +132,7 @@
       <file leaf-file-name="shop_photo_serializer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="5" selection-start="119" selection-end="255" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="avatar_uploader.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="46" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
+            <state line="9" column="17" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -168,10 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/welcome/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
-        <option value="$PROJECT_DIR$/Rakefile" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/uploaders/avatar_uploader.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/post_photo_uploader.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -182,8 +166,12 @@
         <option value="$PROJECT_DIR$/app/models/favor.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/serializers/favor_serializer.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/post_serializer.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20131111103416_add_desc_to_shop_photo.rb" />
+        <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb" />
+        <option value="$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb" />
       </list>
     </option>
   </component>
@@ -861,31 +849,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="33" />
+      <option name="time" value="35" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/uploaders/post_photo_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="342" selection-end="342" vertical-scroll-proportion="0.02035278">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/avatar_uploader.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="46" selection-start="1089" selection-end="1089" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/shop_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="456" selection-end="456" vertical-scroll-proportion="0.31105992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="45" selection-start="1005" selection-end="1005" vertical-scroll-proportion="0.0">
@@ -949,13 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="5" selection-start="119" selection-end="255" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/favor_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="5" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
@@ -963,16 +923,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+        <state line="118" column="66" selection-start="4652" selection-end="4652" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="63" selection-start="4828" selection-end="4828" vertical-scroll-proportion="3.422819">
+        <state line="11" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131111103416_add_desc_to_shop_photo.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="10" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/favors_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="25" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="749" selection-end="749" vertical-scroll-proportion="0.44930875">
           <folding />
         </state>
       </provider>
