@@ -4,6 +4,7 @@ WeshakeServer::Application.routes.draw do
     namespace :v1 do
       resources :shops
       resources :favors
+      resources :shop_photos
 
       resources :users do
         resources :posts

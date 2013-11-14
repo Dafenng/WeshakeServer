@@ -24,6 +24,28 @@ namespace :import do
     end
   end
 
+  task :shop_profile do
+     #Shop.all.each do | shop |
+    shop = Shop.find(65231)
+    photos = shop.shop_photos.where(size_type: 'square')
+    photo = nil
+    if photos.count > 0
+      photo = photos.find_by(photo_type: 'outside')
+      if photo.nil?
+        photo = photos.find_by(photo_type: 'inside')
+        if photo.nil?
+          photo = photos.find_by(photo_type: 'dish')
+        end
+      end
+
+      unless photo.nil?
+        shop.default_square_image = photo.photo_url
+        shop.save
+      end
+    end
+     #end
+  end
+
   task :shops do
     CSV.foreach('./shops.csv', :headers => true) do |row|
       shop = Shop.new(row.to_hash)

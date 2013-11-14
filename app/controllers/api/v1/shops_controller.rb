@@ -59,7 +59,7 @@ module Api
       end
 
       def around(latitude, longitude, start, count)
-        @shops = Shop.near([latitude, longitude], 5).limit(100)
+        @shops = Shop.near([latitude, longitude], 5).limit(start + count)
         @shops = @shops[start, count]
         render json: @shops, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
       end
@@ -68,9 +68,9 @@ module Api
         
         if area.eql?('Around')
           # 此时的district实际为半径大小
-          @shops = Shop.near([latitude, longitude], district.to_i / 1000).limit(1000)
+          @shops = Shop.near([latitude, longitude], district.to_i / 1000).limit(500)
         else
-          @shops = Shop.where(region: region, area: area, district: district)
+          @shops = Shop.where(region: region, area: area, district: district).limit(500)
         end
 
         if !genre.eql?('All')
