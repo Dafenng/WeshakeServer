@@ -10,7 +10,7 @@ module Api
       def index
         @user = User.find(params[:user_id])
         if @user.auth_token == params[:auth_token]
-          @posts = @user.posts
+          @posts = @user.posts.reverse_order
           start = params[:start].to_i
           count = params[:count].to_i
           @posts = @posts[start, count]

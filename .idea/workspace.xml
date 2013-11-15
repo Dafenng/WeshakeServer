@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +10,7 @@
     <file path="/users_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382584318977" ignored="false" />
     <file path="/routes.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384396105757" ignored="false" />
     <file path="/user.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384092354634" ignored="false" />
-    <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382700190387" ignored="false" />
+    <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384487477137" ignored="false" />
     <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384484904064" ignored="false" />
     <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382785687012" ignored="false" />
     <file path="/database.yml" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382508838168" ignored="false" />
@@ -94,35 +93,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/install.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="41" selection-start="339" selection-end="339" vertical-scroll-proportion="-7.5">
-              <folding>
-                <marker date="1384348198000" expanded="true" signature="28:135" placeholder="..." />
-                <marker date="1384348198000" expanded="true" signature="142:330" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weshake.plist" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/weshake.plist">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="65" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.0588236">
-              <folding>
-                <marker date="1384348228000" expanded="true" signature="284:534" placeholder="..." />
-                <marker date="1384348228000" expanded="true" signature="556:869" placeholder="..." />
-                <marker date="1384348228000" expanded="true" signature="887:1202" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rakefile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Rakefile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rakefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="5" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.53246754">
+            <state line="54" column="69" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post_serializer.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,6 +115,15 @@
         <entry file="file://$PROJECT_DIR$/app/serializers/shop_photo_serializer.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="9" column="17" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="44" selection-start="385" selection-end="385" vertical-scroll-proportion="0.33919597">
               <folding />
             </state>
           </provider>
@@ -173,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/shop.rb" />
         <option value="$PROJECT_DIR$/app/models/favor.rb" />
         <option value="$PROJECT_DIR$/app/serializers/favor_serializer.rb" />
@@ -189,6 +180,7 @@
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shop_photos_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
       </list>
     </option>
   </component>
@@ -883,23 +875,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="50" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/serializers/favor_serializer.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="5" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -915,8 +893,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="41" selection-start="339" selection-end="339" vertical-scroll-proportion="-7.5">
           <folding>
-            <marker date="1384348198000" expanded="true" signature="28:135" placeholder="..." />
-            <marker date="1384348198000" expanded="true" signature="142:330" placeholder="..." />
+            <marker date="1384348198000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1384348198000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -925,9 +903,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="65" selection-start="244" selection-end="244" vertical-scroll-proportion="-2.0588236">
           <folding>
-            <marker date="1384348228000" expanded="true" signature="284:534" placeholder="..." />
-            <marker date="1384348228000" expanded="true" signature="556:869" placeholder="..." />
-            <marker date="1384348228000" expanded="true" signature="887:1202" placeholder="..." />
+            <marker date="1384348228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1384348228000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1384348228000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -990,7 +968,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.53246754">
+        <state line="54" column="69" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/serializers/post_serializer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="44" selection-start="385" selection-end="385" vertical-scroll-proportion="0.33919597">
           <folding />
         </state>
       </provider>
