@@ -14,7 +14,8 @@ module Api
 
         process = params[:process]
         if process.eql?('suggest')
-          suggest(latitude, longitude, radius)
+          region = params[:region]
+          suggest(region, latitude, longitude, radius)
         elsif process.eql?('around')
           around(latitude, longitude, start, count)
         elsif process.eql?('search')
@@ -52,10 +53,19 @@ module Api
 
       private
 
-      def suggest(latitude, longitude, radius)
-        @shops = Shop.near([latitude, longitude], radius).limit(100)
+      def suggest(region, latitude, longitude, radius)
+        if not region.nil?
+          @shops = Shop.where(region: region).limit(100)
+        else
+          @shops = Shop.near([latitude, longitude], radius).limit(100)
+        end
         @shop = @shops.sample
-        render json: @shop, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
+
+        if not @shop.nil?
+          render json: @shop, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
+        else
+          render json: [], meta: { status: :ok, total: 0 }, meta_key: 'result'
+        end
       end
 
       def around(latitude, longitude, start, count)
@@ -69,6 +79,8 @@ module Api
         if area.eql?('Around')
           # 此时的district实际为半径大小
           @shops = Shop.near([latitude, longitude], district.to_i / 1000).limit(500)
+        elsif area.eql?('All')
+          @shops = Shop.where(region: region).limit(500)
         else
           @shops = Shop.where(region: region, area: area, district: district).limit(500)
         end
