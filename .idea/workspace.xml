@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WeshakeServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -11,7 +12,7 @@
     <file path="/routes.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384396105757" ignored="false" />
     <file path="/user.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384092354634" ignored="false" />
     <file path="/posts_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384487477137" ignored="false" />
-    <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384484904064" ignored="false" />
+    <file path="/shops_controller.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1384494553097" ignored="false" />
     <file path="/Gemfile" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382785687012" ignored="false" />
     <file path="/database.yml" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382508838168" ignored="false" />
     <file path="/20131023071052_add_type_and_type_id_to_users.rb" changelist="a7704b2c-6778-4d5d-b86e-d8e897bb3cd4" time="1382512382415" ignored="false" />
@@ -75,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shops_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="shops_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="126" selection-start="2595" selection-end="2595" vertical-scroll-proportion="0.0">
+            <state line="80" column="65" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.29396984">
               <folding />
             </state>
           </provider>
@@ -120,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="44" selection-start="385" selection-end="385" vertical-scroll-proportion="0.33919597">
+            <state line="12" column="44" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,9 +179,9 @@
         <option value="$PROJECT_DIR$/app/serializers/shop_serializer.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/shop_photos_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
         <option value="$PROJECT_DIR$/Rakefile" />
         <option value="$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb" />
       </list>
     </option>
   </component>
@@ -959,13 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="126" selection-start="2595" selection-end="2595" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="69" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0">
@@ -982,7 +976,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="44" selection-start="385" selection-end="385" vertical-scroll-proportion="0.33919597">
+        <state line="12" column="44" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/shops_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="65" selection-start="2594" selection-end="2594" vertical-scroll-proportion="0.29396984">
           <folding />
         </state>
       </provider>

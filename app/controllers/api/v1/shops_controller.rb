@@ -60,7 +60,6 @@ module Api
           @shops = Shop.near([latitude, longitude], radius).limit(100)
         end
         @shop = @shops.sample
-
         if not @shop.nil?
           render json: @shop, meta: { status: :ok, total: @shops.count }, meta_key: 'result'
         else
