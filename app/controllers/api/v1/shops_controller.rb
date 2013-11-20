@@ -77,7 +77,7 @@ module Api
         
         if area.eql?('Around')
           # 此时的district实际为半径大小
-          @shops = Shop.near([latitude, longitude], district.to_i / 1000).limit(500)
+          @shops = Shop.near([latitude, longitude], district.to_f / 1000).limit(500)
         elsif area.eql?('All')
           @shops = Shop.where(region: region).limit(500)
         else
